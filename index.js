@@ -14,4 +14,5 @@ function writeLoadingText() {
 
     loading__text.innerText = `${currentLoadValue}%`;
     background.style.opacity=`${currentLoadValue/100}`;
+    loading__text.style.opacity=`${1-(currentLoadValue/100)}`
 }
