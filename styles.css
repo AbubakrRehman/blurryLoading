@@ -4,7 +4,7 @@
     box-sizing: 0;
 }
 
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,21 +14,24 @@ body{
 
 .bg {
     background-image: url("https://images.unsplash.com/photo-1542396601-dca920ea2807?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1951&q=80");
-    height: 100vh;
+    height:100vh;
     width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
     z-index: -1;
-    opacity: 0.4;
+    /* opacity: 0; */
+    filter: blur(30px);
+    top: 0px;
+    left: 0px;
 }
 
 
-.loading__text{
+.loading__text {
     display: flex;
     font-size: 40px;
     color: white;
     margin: auto 0;
     opacity: 1;
-    
+
 }
